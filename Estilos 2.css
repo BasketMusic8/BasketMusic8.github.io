@@ -1,0 +1,97 @@
+h1{
+	color:blue;
+	font-size: 100px;
+	font-family: mistral;
+	text-align: center
+}
+	
+h2{
+	color:#cc0e0e;
+	font-size: 55px;
+	text-decoration: underline;
+	font-family: arial;
+	text-align: left;
+}
+
+h3{
+	color: white;
+	font-size: 45px;
+	font-family: arial;
+	text-align: center;
+}
+
+p{
+	font-size: 40px; 
+	color:black;
+	font-family: helvetica;
+	text-align:justify;
+}
+
+section{
+	background-image: url(artesano.jpg);
+	background-size: cover;
+}
+
+.justificado{
+	text-align:justify
+}	
+
+.negrita{
+	font-weight:bold
+}
+
+div{
+	background-image: url(ajedrez.jpg);
+	background-size: cover;
+	filter: brightness(1.3);
+}
+
+.box{
+	width: 800px;
+	padding: 5px;
+	border: 2px solid black;
+	border-radius: 25px;
+	margin: 25px;
+	background-color: #9ecfeb
+}
+
+.container{
+	width: 800px;
+	height: 300px;
+	margin: 10px;
+	border-radius: 25px;
+}
+
+.caja{
+	width: 800px;
+	height: 450px;
+	margin: 10px;
+	border-radius: 25px;
+}
+
+.barra{
+    width: 400px;
+	height: 50px;
+	border: 5px solid black;
+	background: linear-gradient(to right, blue 50%, transparent 50%);
+}
+
+.color{
+	background: linear-gradient(to right, #ebd29e, 80%, white);
+}
+
+h3:active{
+	color:red
+}
+
+h3:hover{
+	font-size:100px
+}
+
+h2:hover{
+	background-color:#7ec655
+}
+
+#letra{
+	font-size: 60px
+}
