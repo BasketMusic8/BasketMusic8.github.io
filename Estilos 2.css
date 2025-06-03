@@ -1,4 +1,4 @@
-h1{
+   h1{
 	color:blue;
 	font-size: 100px;
 	font-family: mistral;
@@ -89,7 +89,7 @@ div{
 
 h3:active{
 	color:red
-}
+} /* Utilizo la pseudo-clase active para aplicar cambiar al rojo el texto h3 cuando se pulsa en él */
 
 h3:hover{
 	font-size:100px
@@ -100,7 +100,7 @@ h2:hover{
 }
 
 h4:active{
-	color:#0d19b5
+	color:#f80c0c
 }
 
 #letra{
@@ -114,7 +114,7 @@ h4:active{
 	margin: 10px;
 	border-radius: 25px;
 	background-color: #f3e727;
-	float: left; /* Uso de la propiedad float para colocar las cajas en la parte izquierda*/
+	float: left; /* Uso de la propiedad float para colocar las cajas en la parte izquierda */
 	text-align: center
 }
 
@@ -125,6 +125,6 @@ h4:active{
 	margin: 10px;
 	border-radius: 25px;
 	background-color: #f3e727;
-	float: right; /* Uso de la propiedad float para colocar las cajas en la parte derecha*/
+	float: right; /* Uso de la propiedad float para colocar las cajas en la parte derecha */
 	text-align: center
 }
