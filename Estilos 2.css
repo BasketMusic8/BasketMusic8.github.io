@@ -8,7 +8,7 @@ h1{
 h2{
 	color:#cc0e0e;
 	font-size: 55px;
-	text-decoration: underline;
+	text-decoration: underline; /* para que la imagen ocupe toda la sección */
 	font-family: arial;
 	text-align: left;
 }
@@ -36,6 +36,12 @@ p{
 section{
 	background-image: url(artesano.jpg);
 	background-size: cover;
+} /* uso del elementos section para sustituir a div */
+
+div{
+	background-image: url(ajedrez.jpg);
+	background-size: cover;
+	filter: brightness(1.3); /* uso de esta propiedad para agregarle brillo a la imagen*/
 }
 
 .justificado{
@@ -46,17 +52,11 @@ section{
 	font-weight:bold
 }
 
-div{
-	background-image: url(ajedrez.jpg);
-	background-size: cover;
-	filter: brightness(1.3);
-}
-
 .box{
 	width: 800px;
 	padding: 5px;
 	border: 2px solid black;
-	border-radius: 25px;
+	border-radius: 25px; /* utilizo esta propiedad para conseguir un borde redondeado en la imagen */
 	margin: 25px;
 	background-color: #9ecfeb
 }
@@ -79,7 +79,7 @@ div{
     width: 400px;
 	height: 50px;
 	border: 5px solid black;
-	background: linear-gradient(to right, blue 50%, transparent 50%);
+	background: linear-gradient(to right, blue 50%, transparent 50%); /*esta propiedad aplica un gradiente a la barra en la que se observa el color azul y blanco */
 }
 
 .color{
@@ -114,7 +114,7 @@ h4:active{
 	margin: 10px;
 	border-radius: 25px;
 	background-color: #f3e727;
-	float: left;
+	float: left; /* Uso de la propiedad float para colocar las cajas en la parte izquierda*/
 	text-align: center
 }
 
@@ -125,6 +125,6 @@ h4:active{
 	margin: 10px;
 	border-radius: 25px;
 	background-color: #f3e727;
-	float: right;
+	float: right; /* Uso de la propiedad float para colocar las cajas en la parte derecha*/
 	text-align: center
 }
