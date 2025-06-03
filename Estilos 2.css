@@ -21,8 +21,8 @@ h3{
 }
 
 h4{
-	color: pink;
-	font-size: 100px;
+	color: black;
+	font-size: 70px;
 	text-decoration: underline;
 }
 
@@ -99,6 +99,32 @@ h2:hover{
 	background-color:#7ec655
 }
 
+h4:active{
+	color:#0d19b5
+}
+
 #letra{
 	font-size: 60px
+}
+
+
+#box1{
+	width: 150px;
+	height: 100px;
+	margin: 10px;
+	border-radius: 25px;
+	background-color: #f3e727;
+	float: left;
+	text-align: center
+}
+
+
+#box2{
+	width: 175px;
+	height: 100px;
+	margin: 10px;
+	border-radius: 25px;
+	background-color: #f3e727;
+	float: right;
+	text-align: center
 }
