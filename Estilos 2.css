@@ -83,9 +83,8 @@ div{
 }
 
 .color{
-	background: linear-gradient(to right, #ebd29e, 80%, white);
+	background: linear-gradient(to right, #ebd29e, 80%, white); /* color de fondo, gradiente que pasa del ocre al blanco */
 }
-
 
 h3:active{
 	color:red
